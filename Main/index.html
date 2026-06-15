@@ -1,20 +1,173 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Simples com Bootstrap</title>
-    <!-- Bootstrap CSS -->
-    <link href="../bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="../bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
-</head>
-<body>
 
-    <div class="container text-center mt-5">
-        <h1>Olá, Mundo!</h1>
-        <p>Esta é uma página simples com Bootstrap.</p>
-        <button class="btn btn-primary">Clique aqui</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lamon Produtos</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap CSS -->
+  <link href="../bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="../bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    /* Apenas em telas grandes (acima de 992px - breakpoint lg do Bootstrap) */
+    @media (min-width: 992px) {
+      .navbar .container-fluid {
+        position: relative;
+      }
+
+      .navbar-collapse {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .navbar-nav {
+        margin: 0 auto;
+      }
+
+      /* Mantém a logo visível e não sobreposta */
+      .navbar-brand {
+        position: relative;
+        z-index: 2;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <!-- Logo à esquerda -->
+      <div class="navbar-brand">
+        <img src="../SRC/logoLamon.png" alt="Lamon Produtos" style="height: 40px" />
+      </div>
+
+      <!-- Botão toggler (só aparece no mobile) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08"
+        aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu centralizado com position absolute apenas em telas grandes -->
+      <div class="collapse navbar-collapse" id="navbarsExample08">
+        <ul class="navbar-nav gap-3 gap-lg-4 gap-xl-5">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Centered nav only</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../SRC/caca_vazamento_no_rj.webp" class="d-block h-25 w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>
+              Some representative placeholder content for the first slide.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../SRC/pesquisa de vazamento.webp" class="d-block w-100 h-50" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>
+              Some representative placeholder content for the second slide.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../SRC/03_fragata_vazamento-BC0yWMoC.webp" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>
+              Some representative placeholder content for the third slide.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+
     </div>
 
+
+
+
+    <!-- LEFT -->
+    <div class="container col-12 col-lg-5 d-flex">
+      <div class="row gap-4">
+        <div class="col-4 d-flex flex-column gap-1">
+          <div class="card-left text-center d-flex align-items-center justify-content-center shadow">Laboratório
+            acreditado INMETRO</div>
+          <div class="card-left text-center d-flex align-items-center justify-content-center shadow">Calibração
+            Acreditada RBC</div>
+          <div class="card-left text-center d-flex align-items-center justify-content-center shadow">Assistência Técnica
+            Própria</div>
+        </div>
+        <div class="col-4 d-flex flex-column gap-1">
+          <div class="card-left text-center d-flex align-items-center justify-content-center shadow">Mais de 500
+            equipamentos instalados em todo território nacional</div>
+          <div class="card-left text-center d-flex align-items-center justify-content-center shadow">Equipe própria de
+            engenharia, sem terceirização</div>
+          <div class="card-left text-center d-flex align-items-center justify-content-center shadow">Todos os
+            equipamentos passam por bateria de testes de 72h antes do envio</div>
+        </div>
+
+        <div class="col-4">
+          <img class="w-100 img-fluid rounded mx-auto d-block" src="../SRC/datalogger-em-campo.jpg"  alt="">
+        </div>
+      </div>
+      <!-- LEFT -->
+    </div>
+
+  </main>
+
+  <div class="container text-center mt-5">
+    <h1>Olá, Mundo!</h1>
+    <p>Esta é uma página simples com Bootstrap.</p>
+    <button class="btn btn-primary">Clique aqui</button>
+  </div>
 </body>
+
 </html>

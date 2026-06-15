@@ -1,0 +1,30 @@
+ul li a:hover {
+    color: #F79531 !important;
+
+}
+
+nav button {
+    background-color: #F79531 !important;
+    border-color: #F79531 !important;
+}
+
+nav button:hover {
+    background-color: #ffffff !important;
+    border-color: #F79531 !important;
+    color: black !important;
+}
+
+.carousel.slide img {
+    height: 600px !important;
+    width: auto;
+    object-fit: cover;
+}
+
+
+.card-left {
+    background-color: white;
+    border: 1px solid #F79531;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
