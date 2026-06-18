@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lamon Produtos</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="../SRC/FavIcon.png" />
   <!-- Bootstrap CSS -->
   <link href="../bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet" />
   <script src="../bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
@@ -40,7 +41,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container-fluid">
       <!-- Logo à esquerda -->
       <div class="navbar-brand">
@@ -57,17 +58,21 @@
       <div class="collapse navbar-collapse" id="navbarsExample08">
         <ul class="navbar-nav gap-3 gap-lg-4 gap-xl-5">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Centered nav only</a>
+            <a class="nav-link active" aria-current="page" href="#">Início</a>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Quem Somos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Serviços</a></li>
+
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Produtos</a>
+            <ul class="dropdown-menu bg-dark">
+              <li><a class="dropdown-item" href="#">Maleta de Pitometria</a></li>
+              <li><a class="dropdown-item" href="#">Medidores de Nível</a></li>
+              <li><a class="dropdown-item" href="#">Pesquisa de vazamento</a></li>
+              <li><a class="dropdown-item" href="#">Dataloggers</a></li>
+              <li><a class="dropdown-item" href="#">Telemetria</a></li>
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><a class="dropdown-item" href="#">Contato</a></li>
               <li>
                 <a class="dropdown-item" href="#">Something else here</a>
               </li>
@@ -79,7 +84,7 @@
   </nav>
 
   <main>
-    <div id="carouselExampleCaptions" class="carousel slide">
+    <div id="carouselExampleCaptions" class="carousel slide shadow-lg">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
@@ -131,37 +136,69 @@
 
     </div>
 
+    <div class="container w-50 texto-under-slider text-start my-5">
+
+      <div class="row gap-5">
+        <div class="col-12 col-sm-12 col-lg-5 card-right img-banner-main rounded-5 shadow p-0">
+          
+        </div>
+        <div class="col-12 col-sm-12 col-lg-5">
+          <h2 class="fw-bold">Lamon Produtos </h2>
+
+          <p>​A Lamon, presente no mercado nacional <span class="fw-bold">desde 1977</span>, iniciou-se no seguimento
+            de
+            serviços do ramo de
+            Instrumentação Industrial, sendo em 1989 constituída a Lamon Produtos Ltda (Indústria e Comércio), começando
+            assim a fabricação de seus produtos. Hoje a Lamon segue no mercado de Instrumentação na área de Vazão,
+            Nível,
+            Pressão e Pesquisa de Vazamento, numa busca incessante de satisfação e resultados</p>
+        </div>
+      </div>
+    </div>
 
 
 
     <!-- LEFT -->
-    <div class="container col-12 col-lg-5 d-flex">
-      <div class="row gap-4">
-        <div class="col-4 d-flex flex-column gap-1">
+    <div class="container">
+      <div class="row container align-items-center justify-content-center">
+        <div class="col-12 col-sm-12 col-lg-6 justify-content-center gap-1 gap-sm-3 mt-5 mb-5 d-flex flex-wrap">
           <div class="card-left text-center d-flex align-items-center justify-content-center shadow">Laboratório
             acreditado INMETRO</div>
           <div class="card-left text-center d-flex align-items-center justify-content-center shadow">Calibração
             Acreditada RBC</div>
-          <div class="card-left text-center d-flex align-items-center justify-content-center shadow">Assistência Técnica
+          <div class="card-left text-center d-flex align-items-center justify-content-center shadow flex-column"> <img
+              src="../SRC/ICON/icon-group.svg" width="50" height="50" alt="Assistência Técnica" class="img-fluid">
+            Assistência Técnica
             Própria</div>
-        </div>
-        <div class="col-4 d-flex flex-column gap-1">
-          <div class="card-left text-center d-flex align-items-center justify-content-center shadow">Mais de 500
+          <div class="card-left text-center d-flex align-items-center justify-content-center shadow flex-column"><img
+              src="../SRC/ICON/icon-water.svg" width="50" height="50" alt="agua" class="img-fluid">+500
             equipamentos instalados em todo território nacional</div>
-          <div class="card-left text-center d-flex align-items-center justify-content-center shadow">Equipe própria de
+          <div class="card-left text-center d-flex align-items-center justify-content-center shadow flex-column"><img
+              src="../SRC/ICON/icon-eng.svg" width="50" height="50" alt="Equipe própria" class="img-fluid">Equipe
+            própria de
             engenharia, sem terceirização</div>
-          <div class="card-left text-center d-flex align-items-center justify-content-center shadow">Todos os
+          <div class="card-left text-center d-flex align-items-center justify-content-center shadow flex-column"><img
+              src="../SRC/ICON/icon-ampola.svg" width="50" height="50" alt="Testes" class="img-fluid">Todos os
             equipamentos passam por bateria de testes de 72h antes do envio</div>
         </div>
-
-        <div class="col-4">
-          <img class="w-100 img-fluid rounded mx-auto d-block" src="../SRC/datalogger-em-campo.jpg"  alt="">
+        <!-- LEFT -->
+        <!-- RIGHT -->
+        <div class="col-12 col-sm-12 col-lg-5 card-right img-banner-main rounded-5 shadow p-0">
+          <img class="img-fluid rounded-5 mx-auto d-block" style="object-fit: cover;"
+            src="../SRC/datalogger-em-campo.jpg" alt="">
         </div>
+        <!-- RIGHT -->
       </div>
-      <!-- LEFT -->
     </div>
 
+
+
   </main>
+
+
+
+
+
 
   <div class="container text-center mt-5">
     <h1>Olá, Mundo!</h1>

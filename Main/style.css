@@ -1,11 +1,23 @@
+:root {
+    --background-color: #22262a;
+    --primary-color: #F79531;
+    --secondary-color: #00395F;
+
+}
+
 ul li a:hover {
     color: #F79531 !important;
 
 }
 
+nav {
+    background-color: #22262ad8 !important;
+}
+
 nav button {
     background-color: #F79531 !important;
     border-color: #F79531 !important;
+    
 }
 
 nav button:hover {
@@ -14,17 +26,59 @@ nav button:hover {
     color: black !important;
 }
 
+
+/* cor escura do dropdown */
+
+nav .dropdown-menu a {
+    color: white !important;
+    padding: 20px !important;
+    
+}
+
+nav .dropdown-menu a:hover {
+    background-color: #F79531 !important;
+    color: #22262a !important;
+
+}
+
 .carousel.slide img {
     height: 600px !important;
     width: auto;
     object-fit: cover;
 }
 
+.card-right.img-banner-main{
+    background-image: url('../SRC/tubulacaoIndex.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
 
 .card-left {
-    background-color: white;
-    border: 1px solid #F79531;
+    background-color: var(--primary-color);
+    border: 2px solid #F79531;
+    color: white;
     border-radius: 20px;
-    width: 200px;
-    height: 200px;
+    font-size: 12px;
+    padding: 10px;
+    width: 180px;
+    height: 180px;
+    transition: transform 0.5s ease-in-out;
 }
+
+.card-left:hover {
+    transform: scale(1.08);
+}
+
+@media (min-width: 768px) {
+    .card-left {
+        width: 150px;
+        height: 160px;
+    }
+}
+
+
+.texto-under-slider p{
+    color: rgb(87, 87, 87)!important;
+}
+
