@@ -2,6 +2,7 @@
     --background-color: #22262a;
     --primary-color: #F79531;
     --secondary-color: #00395F;
+    --bs-carousel-indicator-active-bg: #F79531!important;
 
 }
 
@@ -13,6 +14,7 @@ ul li a:hover {
 nav {
     background-color: #22262ad8 !important;
 }
+
 
 nav button {
     background-color: #F79531 !important;
@@ -47,12 +49,15 @@ nav .dropdown-menu a:hover {
     object-fit: cover;
 }
 
-.card-right.img-banner-main{
-    background-image: url('../SRC/tubulacaoIndex.jpeg');
-    background-size: cover;
-    background-position: center;
+.carousel-caption{
+    color: white!important;
+    background-color: #22262a98;
+    padding: 5px;
 }
 
+.carousel-indicators{
+    color: var(--bs-carousel-indicator-active-bg)!important;
+}
 
 .card-left {
     background-color: var(--primary-color);
