@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lamon Produtos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="../../SRC/FavIcon.png" />
+    <!-- Bootstrap CSS -->
+    <link href="../../bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="../../bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        /* Apenas em telas grandes (acima de 992px - breakpoint lg do Bootstrap) */
+        @media (min-width: 992px) {
+            .navbar .container-fluid {
+                position: relative;
+            }
+
+            .navbar-collapse {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .navbar-nav {
+                margin: 0 auto;
+            }
+
+            /* Mantém a logo visível e não sobreposta */
+            .navbar-brand {
+                position: relative;
+                z-index: 2;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow">
+        <div class="container-fluid">
+            <!-- Logo à esquerda -->
+            <div class="navbar-brand">
+                <img src="../../SRC/logoLamon.png" alt="Lamon Produtos" style="height: 40px" />
+            </div>
+
+            <!-- Botão toggler (só aparece no mobile) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08"
+                aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu centralizado com position absolute apenas em telas grandes -->
+            <div class="collapse navbar-collapse" id="navbarsExample08">
+                <ul class="navbar-nav gap-3 gap-lg-4 gap-xl-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Quem Somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Serviços</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            aria-expanded="false">Produtos</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item" href="#">Maleta de Pitometria</a></li>
+                            <li><a class="dropdown-item" href="#">Medidores de Nível</a></li>
+                            <li><a class="dropdown-item" href="#">Pesquisa de vazamento</a></li>
+                            <li><a class="dropdown-item" href="#">Dataloggers</a></li>
+                            <li><a class="dropdown-item" href="#">Telemetria</a></li>
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Contato</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+
+        <div class="container py-5">
+            <!-- Título da seção -->
+            <div class="text-center mb-5">
+                <h2 class="fw-bold"><i class="bi bi-tools me-2"></i>Maleta de Pitometria</h2>
+                <p class="text-muted">Perfeita para medir velocidade e vazão em dutos de ar</p>
+            </div>
+
+            <!-- Grid de cards -->
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 gap-5 justify-content-center">
+
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="card h-100 shadow-sm border-0 bg-soft-primary">
+                        <div class="card-body text-center shadow">
+                            
+                            <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
+                            <div class="titleInfo pb-2 pt-1">
+                                <h5 class="card-title mt-3 fw-bold">MALETA</h5>
+                                <p class="card-text text-white">Perfeita para medir a velocidade<br> e a vazão</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm border-0 bg-soft-primary">
+                        <div class="card-body text-center">
+                            
+                            <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
+                            <div class="titleInfo pb-2 pt-1">
+                                <h5 class="card-title mt-3 fw-bold">MALETA</h5>
+                                <p class="card-text text-white">Perfeita para medir a velocidade<br> e a vazão</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm border-0 bg-soft-primary">
+                        <div class="card-body text-center">
+                            
+                            <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
+                            <div class="titleInfo pb-2 pt-1">
+                                <h5 class="card-title mt-3 fw-bold">MALETA</h5>
+                                <p class="card-text text-white">Perfeita para medir a velocidade<br> e a vazão</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm border-0 bg-soft-primary">
+                        <div class="card-body text-center">
+                            
+                            <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
+                            <div class="titleInfo pb-2 pt-1">
+                                <h5 class="card-title mt-3 fw-bold">MALETA</h5>
+                                <p class="card-text text-white">Perfeita para medir a velocidade<br> e a vazão</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm border-0 bg-soft-primary">
+                        <div class="card-body text-center">
+                            
+                            <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
+                            <div class="titleInfo pb-2 pt-1">
+                                <h5 class="card-title mt-3 fw-bold">MALETA</h5>
+                                <p class="card-text text-white">Perfeita para medir a velocidade<br> e a vazão</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm border-0 bg-soft-primary">
+                        <div class="card-body text-center">
+                            
+                            <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
+                            <div class="titleInfo pb-2 pt-1">
+                                <h5 class="card-title mt-3 fw-bold">MALETA</h5>
+                                <p class="card-text text-white">Perfeita para medir a velocidade<br> e a vazão</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm border-0 bg-soft-primary">
+                        <div class="card-body text-center">
+                            
+                            <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
+                            <div class="titleInfo pb-2 pt-1">
+                                <h5 class="card-title mt-3 fw-bold">MALETA</h5>
+                                <p class="card-text text-white">Perfeita para medir a velocidade<br> e a vazão</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm border-0 bg-soft-primary">
+                        <div class="card-body text-center">
+                            
+                            <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
+                            <div class="titleInfo pb-2 pt-1">
+                                <h5 class="card-title mt-3 fw-bold">MALETA</h5>
+                                <p class="card-text text-white">Perfeita para medir a velocidade<br> e a vazão</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm border-0 bg-soft-primary">
+                        <div class="card-body text-center">
+                            
+                            <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
+                            <div class="titleInfo pb-2 pt-1">
+                                <h5 class="card-title mt-3 fw-bold">MALETA</h5>
+                                <p class="card-text text-white">Perfeita para medir a velocidade<br> e a vazão</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                
+                <!-- Card 3 (com acento em MALETÁ - mantido conforme original) -->
+               
+
+            </div>
+
+
+    </main>
+
+    <footer class="bg-dark text-light text-center py-5 mt-5">
+
+        <div class="container">
+            <div class="row gy-4 justify-content-center">
+
+                <div class="col-12 col-lg-3 text-center text-lg-start">
+
+                    <img src="../../SRC/logoLamon.png" alt="Lamon Produtos" style="height: 40px" class="mb-3">
+                    <p class="text-secondary small">
+                        Soluções em produtos de alta qualidade para o seu dia a dia.
+                    </p>
+                    <div class="lh-base">
+
+                        <p class="text-secondary small">
+                            <i class="bi bi-envelope"></i> comercial@lamon.com.br<br>
+                            <i class="bi bi-telephone"></i> (31) 3373-1552<br>
+                            <i class="bi bi-pin-map-fill"></i> Endereço: R. Crepúsculo, 110 - Califórnia, Belo Horizonte
+                            - MG,
+                            30855-435<br>
+                            <i class="bi bi-alarm"></i> Segunda à quinta: 8:00 - 12:00 / 13:00 - 18:00<br>Sexta-feira:
+                            8:00 - 12:00 /
+                            13:00 - 17:00<br>
+
+                        </p>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="col-12 col-sm-4 col-lg-2 text-center">
+                    <h6 class="fw-bold border-bottom">Institucional</h6>
+                    <div class="d-flex flex-column">
+                        <a href="#" class="text-secondary text-decoration-none">Sobre Nós</a>
+                        <a href="#" class="text-secondary text-decoration-none">Nossa Equipe</a>
+                        <a href="#" class="text-secondary text-decoration-none">Trabalhe Conosco</a>
+                        <a href="#" class="text-secondary text-decoration-none">Blog / Notícias</a>
+                        <a href="#" class="text-secondary text-decoration-none">Depoimentos</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-lg-2 text-center">
+                    <h6 class="fw-bold border-bottom">Ajuda & Suporte</h6>
+                    <div class="d-flex flex-column">
+                        <a href="#" class="text-secondary text-decoration-none">Central de Ajuda / FAQ</a>
+                        <a href="#" class="text-secondary text-decoration-none">Fale Conosco</a>
+                        <a href="#" class="text-secondary text-decoration-none">Trocas e Devoluções</a>
+                        <a href="#" class="text-secondary text-decoration-none">Política de Entrega</a>
+                        <a href="#" class="text-secondary text-decoration-none">Mapa do Site</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-lg-2 text-center">
+                    <h6 class="fw-bold border-bottom">Produtos/Serviços</h6>
+                    <div class="d-flex flex-column">
+                        <a href="#" class="text-secondary text-decoration-none">Categorias</a>
+                        <a href="#" class="text-secondary text-decoration-none">Produtos em Destaque</a>
+                        <a href="#" class="text-secondary text-decoration-none">Novidades</a>
+                        <a href="#" class="text-secondary text-decoration-none">Promoções</a>
+                        <a href="#" class="text-secondary text-decoration-none">Guia de Tamanhos</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-lg-2 text-center">
+                    <h6 class="fw-bold border-bottom">Legal & Redes</h6>
+                    <div class="d-flex flex-column">
+                        <a href="#" class="text-secondary text-decoration-none">Política de Privacidade</a>
+                        <a href="#" class="text-secondary text-decoration-none">Termos de Uso</a>
+                        <a href="#" class="text-secondary text-decoration-none">Política de Cookies</a>
+                        <a href="#" class="text-secondary text-decoration-none">LGPD</a>
+                        <a href="#" class="text-secondary text-decoration-none">Eventos</a>
+                    </div>
+                </div>
+                <hr class="border-secondary mt-4">
+                <div class="text-center text-secondary small">
+                    © 2025 Lamon Produtos. Todos os direitos reservados.
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
