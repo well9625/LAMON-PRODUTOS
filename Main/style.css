@@ -129,3 +129,32 @@ nav .dropdown-menu a:hover {
   filter: grayscale(0%);
   opacity: 1;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer a{
+  font-size: 12px;
+  padding: 5px;
+}
+
+footer a:hover{
+  color: #F79531 !important;
+}
+
+footer .border-bottom{
+  border-color: #F79531 !important;
+  padding-bottom: 10px;
+}
+
+
+/* FOOTER */
