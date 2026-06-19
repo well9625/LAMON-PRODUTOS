@@ -133,12 +133,26 @@ nav .dropdown-menu a:hover {
 
 
 
+.product.call-to-action {
+  margin-top: 80px!important;
+  margin-bottom: 80px!important;
+}
+
+.product.call-to-action button{
+
+  background-color: #F79531 !important;
+  border-color: #F79531 !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
 
 
 
-
-
-
+  transition: transform 0.3s ease-in-out;
+}
+.product.call-to-action button:hover {
+  transform: scale(1.08);
+}
 
 /* FOOTER */
 
