@@ -45,11 +45,16 @@ nav .dropdown-menu a:hover {
             transform: rotate(-2deg);
         }
 
- /* .card:hover{
-  border: 2px solid var(--primary-color)!important;
-  border-radius: 20px;
- }        */
-/* FOOTER */
+
+
+
+ .card:hover .card-body:hover{
+    border-radius: 25px;
+   
+ }        
+
+
+FOOTER
 
 
 footer a{
@@ -72,4 +77,4 @@ footer .border-bottom{
 
 
 
-/* FOOTER */
+/* FOOTER
