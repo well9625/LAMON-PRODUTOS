@@ -38,7 +38,6 @@
                 z-index: 2;
             }
         }
-        
     </style>
 </head>
 
@@ -60,13 +59,13 @@
             <div class="collapse navbar-collapse" id="navbarsExample08">
                 <ul class="navbar-nav gap-3 gap-lg-4 gap-xl-5">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../../Main/index.html">Início</a>
+                        <a class="nav-link" aria-current="page" href="../../Main/index.html">Início</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#">Quem Somos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Serviços</a></li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown"
                             aria-expanded="false">Produtos</a>
                         <ul class="dropdown-menu bg-dark">
                             <li><a class="dropdown-item" href="#">Maleta de Pitometria</a></li>
@@ -88,13 +87,24 @@
 
     <main>
 
+        <div class="banner position-relative overflow-hidden text-center bg-body-tertiary d-flex align-items-center shadow">
+
+            <div class="banner-content col-md-6 p-lg-5 mx-auto my-5 pt-5">
+
+                <h1 class="display-3 fw-bold">Nossas Categorias</h1>
+                <h3 class="fw-normal small mb-3"> Equipamentos de alta precisão para medição de vazão, nível, pressão e pesquisa de vazamento.
+      Tecnologia e confiabilidade para sua indústria.</h3>
+                
+            </div>
+            <div class="product-device shadow-sm d-none d-md-block"></div>
+            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+
+
+        </div>
 
         <div class="container py-5">
-            <!-- Título da seção -->
-            <div class="text-center mb-5">
-                <h2 class="fw-bold"><i class="bi bi-tools me-2"></i>Maleta de Pitometria</h2>
-                <p class="text-muted">Perfeita para medir velocidade e vazão em dutos de ar</p>
-            </div>
+         <h3 class="col-12 d-flex justify-content-center py-5">Selecione uma categoria</h3>
+       
 
             <!-- Grid de cards -->
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 gap-5 justify-content-center">
@@ -103,8 +113,8 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="card h-100 border-0 bg-soft-primary rounded-5">
                         <div class="card-body text-center">
-                            
-                            <img src="../../SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
+
+                            <img src="../../SRC/CATEGORIAS/MALETA-removebg-preview.png" class="img-fluid" alt="">
                             <div class="titleInfo pb-2 pt-1">
                                 <h5 class="card-title mt-3 fw-bold">MALETA</h5>
                                 <p class="card-text text-white">Perfeita para medir a velocidade<br> e a vazão</p>
@@ -115,7 +125,7 @@
                 <div class="col">
                     <div class="card h-100 border-0 bg-soft-primary rounded-5">
                         <div class="card-body text-center">
-                            
+
                             <img src="../../SRC/CATEGORIAS/GEOFONE.png" class="img-fluid" alt="">
                             <div class="titleInfo pb-2 pt-1">
                                 <h5 class="card-title mt-3 fw-bold">GEOFONE ELETRÔNICO</h5>
@@ -127,11 +137,11 @@
                 <div class="col">
                     <div class="card h-100 border-0 bg-soft-primary rounded-5">
                         <div class="card-body text-center">
-                            
+
                             <img src="../../SRC/CATEGORIAS/CORRELACIONADOR_DE_RUIDOS.png" class="img-fluid" alt="">
                             <div class="titleInfo pb-2 pt-1">
                                 <h5 class="card-title mt-3 fw-bold">CORRELACIONADOR DE RUÍDOS</h5>
-                                <p class="card-text text-white">Compara sinais para localizar vazamento exato</p>
+                                <p class="card-text text-white">Compara sinais para localizar o vazamento</p>
                             </div>
                         </div>
                     </div>
@@ -139,7 +149,19 @@
                 <div class="col">
                     <div class="card h-100 border-0 bg-soft-primary rounded-5">
                         <div class="card-body text-center">
-                            
+
+                            <img src="/SRC/CATEGORIAS/39665-removebg-preview.png" class="img-fluid" alt="">
+                            <div class="titleInfo pb-2 pt-1">
+                                <h5 class="card-title mt-3 fw-bold">Dataloggers</h5>
+                                <p class="card-text text-white">Ideal para registrar dados de pressão e vazão</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 bg-soft-primary rounded-5">
+                        <div class="card-body text-center">
+
                             <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
                             <div class="titleInfo pb-2 pt-1">
                                 <h5 class="card-title mt-3 fw-bold">MALETA</h5>
@@ -151,7 +173,7 @@
                 <div class="col">
                     <div class="card h-100 border-0 bg-soft-primary rounded-5">
                         <div class="card-body text-center">
-                            
+
                             <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
                             <div class="titleInfo pb-2 pt-1">
                                 <h5 class="card-title mt-3 fw-bold">MALETA</h5>
@@ -163,19 +185,7 @@
                 <div class="col">
                     <div class="card h-100 border-0 bg-soft-primary rounded-5">
                         <div class="card-body text-center">
-                            
-                            <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
-                            <div class="titleInfo pb-2 pt-1">
-                                <h5 class="card-title mt-3 fw-bold">MALETA</h5>
-                                <p class="card-text text-white">Perfeita para medir a velocidade<br> e a vazão</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 border-0 bg-soft-primary rounded-5">
-                        <div class="card-body text-center">
-                            
+
                             <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
                             <div class="titleInfo pb-2 pt-1">
                                 <h5 class="card-title mt-3 fw-bold">MALETA</h5>
@@ -187,7 +197,7 @@
                 <div class="col">
                     <div class="card h-100 border-0 bg-soft-primary">
                         <div class="card-body text-center">
-                            
+
                             <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
                             <div class="titleInfo pb-2 pt-1">
                                 <h5 class="card-title mt-3 fw-bold">MALETA</h5>
@@ -199,7 +209,7 @@
                 <div class="col">
                     <div class="card h-100 border-0 bg-soft-primary">
                         <div class="card-body text-center">
-                            
+
                             <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
                             <div class="titleInfo pb-2 pt-1">
                                 <h5 class="card-title mt-3 fw-bold">MALETA</h5>
@@ -210,9 +220,9 @@
                 </div>
 
                 <!-- Card 2 -->
-                
+
                 <!-- Card 3 (com acento em MALETÁ - mantido conforme original) -->
-               
+
 
             </div>
 
@@ -224,20 +234,23 @@
         <div class="container">
             <div class="row gy-4 justify-content-center">
 
-                <div class="col-12 col-lg-3 text-center text-lg-start">
+                <div class="col-12 col-lg-4 text-center text-lg-start">
 
-                    <img src="../../SRC/logoLamon.png" alt="Lamon Produtos" style="height: 40px" class="mb-3">
+                    <img src="../../SRC/logoLamon.png" alt="Lamon Produtos" style="height: 60px" class="mb-3">
                     <p class="text-secondary small">
                         Soluções em produtos de alta qualidade para o seu dia a dia.
                     </p>
                     <div class="lh-base">
 
                         <p class="text-secondary small">
-                            <i class="bi bi-envelope"></i> comercial@lamon.com.br<br>
-                            <i class="bi bi-telephone"></i> (31) 3373-1552<br>
-                            <i class="bi bi-pin-map-fill"></i> Endereço: R. Crepúsculo, 110 - Califórnia, Belo Horizonte
-                            - MG,
-                            30855-435<br>
+                            <i class="bi bi-envelope"></i><a href="mailto:comercial@lamon.com.br"
+                                class="text-decoration-none text-secondary"> comercial@lamon.com.br<br></a>
+                            <i class="bi bi-telephone"></i> <a class="text-decoration-none text-secondary"
+                                href="tel:+553133731552"> (31) 3373-1552<br></a>
+                            <i class="bi bi-pin-map-fill"></i> <a class="text-decoration-none text-secondary"
+                                href="https://www.google.com/maps/place/R.+Crep%C3%BAsculo,+110+-+Calif%C3%B3rnia,+Belo+Horizonte+-+MG,+30855-435/@-19.9297201,-44.0167076,17z/data=!3m1!4b1!4m6!3m5!1s0xa696793c39899b:0x976966f95bd49800!8m2!3d-19.9297201!4d-44.0167076!16s%2Fg%2F11c4cmtqc6?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D"
+                                target="_blank">Endereço: R. Crepúsculo, 110 - Califórnia, Belo Horizonte - MG,
+                                30855-435<br></a>
                             <i class="bi bi-alarm"></i> Segunda à quinta: 8:00 - 12:00 / 13:00 - 18:00<br>Sexta-feira:
                             8:00 - 12:00 /
                             13:00 - 17:00<br>
@@ -292,7 +305,7 @@
                 </div>
                 <hr class="border-secondary mt-4">
                 <div class="text-center text-secondary small">
-                    © 2025 Lamon Produtos. Todos os direitos reservados.
+                    © 2026 Lamon Produtos. Todos os direitos reservados.
                 </div>
 
             </div>
@@ -300,7 +313,7 @@
 
     </footer>
 
-   
+
 </body>
 
 </html>

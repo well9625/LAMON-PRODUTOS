@@ -5,6 +5,10 @@
   --bs-carousel-indicator-active-bg: #F79531!important;
 }
 
+body{
+  background-color: #fafafa;
+}
+
 ul li a:hover {
   color: #F79531 !important;
 }
@@ -33,6 +37,60 @@ nav .dropdown-menu a:hover {
   background-color: #F79531 !important;
   color: #22262a !important;
 }
+
+
+
+.banner {
+  position: relative;
+  background-image: url('../../SRC/CARRETEL_COMPACTO_MV110_9.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px; 
+  overflow: hidden;
+}
+
+.banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.616); 
+  z-index: 1;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 2;
+  color: white !important;
+}
+
+/* formatação fonte banner */
+.banner h3{
+  color: #b8b8b8d8;
+}
+
+
+
+/* 
+
+                   _ 
+                  | |
+  ___ __ _ _ __ __| |
+ / __/ _` | '__/ _` |
+| (_| (_| | | | (_| |
+ \___\__,_|_|  \__,_|
+                     
+                     
+
+*/
+
+
+.card{
+  background-color: #fafafa!important;
+}
+
 .titleInfo{
   background-color: var(--primary-color);
   color: white;
@@ -45,13 +103,30 @@ nav .dropdown-menu a:hover {
             transform: rotate(-2deg);
         }
 
+.card p{
 
+  line-height: 90%;
+}
 
 
  .card:hover .card-body:hover{
     border-radius: 25px;
    
  }        
+
+
+ /* 
+
+                   _ 
+                  | |
+  ___ __ _ _ __ __| |
+ / __/ _` | '__/ _` |
+| (_| (_| | | | (_| |
+ \___\__,_|_|  \__,_|
+                     
+                     
+
+*/
 
 
 FOOTER
