@@ -34,7 +34,6 @@ nav .dropdown-menu a:hover {
   color: #22262a !important;
 }
 
-<<<<<<< HEAD
 
 
 
@@ -44,62 +43,6 @@ nav .dropdown-menu a:hover {
   background-position: center;
   height: 400px; 
   overflow: hidden;
-=======
-.banner {
-  background-image: url('/SRC/MALETA_EM_OPERACAO_USO_CONFERECIA_PRESSAO_CAMPO.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-}
-
-
-.novidade {
-  color: #F79531;
-  padding: 0;
-}
-
-.texto-banner {
-
-  background-color: #22262a65 !important;
-  padding: 30px;
-  border-radius: 15px;
-}
-
-@media (min-width=300px) {
-  .texto-banner {
-    width: 100%;
-    margin-left: 0px;
-    background-color: #22262a65 !important;
-    padding: 30px;
-    border-radius: 15px;
-  }
-}
-
-@media (min-width=300px) {
-  .texto-banner {
-    width: 100%;
-    margin-left: 0px;
-    background-color: #22262a65 !important;
-    padding: 30px;
-    border-radius: 15px;
-  }
-
-}
-
-.btn-banner {
-  background-color: #F79531 !important;
-  border-color: #F79531 !important;
-  color: white !important;
-  padding: 10px 20px !important;
-  font-size: 16px !important;
-
-  transition: transform 0.3s ease-in-out !important;
-}
-
-.btn-banner:hover {
-  transform: scale(1.08);
->>>>>>> 37c4a08a12c29bd27a20375dc376a457fe85e760
 }
 
 .carousel.slide img {
