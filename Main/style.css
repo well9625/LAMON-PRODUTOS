@@ -34,6 +34,17 @@ nav .dropdown-menu a:hover {
   color: #22262a !important;
 }
 
+
+
+
+.banner{
+  background-image: url('../SRC/MALETA_EM_OPERACAO_USO_CONFERECIA_PRESSAO_CAMPO.jpg');
+   background-size: cover;
+  background-position: center;
+  height: 400px; 
+  overflow: hidden;
+}
+
 .carousel.slide img {
   height: 600px !important;
   width: auto;
