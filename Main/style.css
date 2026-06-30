@@ -2,7 +2,7 @@
   --background-color: #22262a;
   --primary-color: #F79531;
   --secondary-color: #00395F;
-  --bs-carousel-indicator-active-bg: #F79531!important;
+  --bs-carousel-indicator-active-bg: #F79531 !important;
 }
 
 ul li a:hover {
@@ -34,6 +34,7 @@ nav .dropdown-menu a:hover {
   color: #22262a !important;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -43,6 +44,62 @@ nav .dropdown-menu a:hover {
   background-position: center;
   height: 400px; 
   overflow: hidden;
+=======
+.banner {
+  background-image: url('/SRC/MALETA_EM_OPERACAO_USO_CONFERECIA_PRESSAO_CAMPO.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+
+.novidade {
+  color: #F79531;
+  padding: 0;
+}
+
+.texto-banner {
+
+  background-color: #22262a65 !important;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+@media (min-width=300px) {
+  .texto-banner {
+    width: 100%;
+    margin-left: 0px;
+    background-color: #22262a65 !important;
+    padding: 30px;
+    border-radius: 15px;
+  }
+}
+
+@media (min-width=300px) {
+  .texto-banner {
+    width: 100%;
+    margin-left: 0px;
+    background-color: #22262a65 !important;
+    padding: 30px;
+    border-radius: 15px;
+  }
+
+}
+
+.btn-banner {
+  background-color: #F79531 !important;
+  border-color: #F79531 !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+
+  transition: transform 0.3s ease-in-out !important;
+}
+
+.btn-banner:hover {
+  transform: scale(1.08);
+>>>>>>> 37c4a08a12c29bd27a20375dc376a457fe85e760
 }
 
 .carousel.slide img {
@@ -52,13 +109,23 @@ nav .dropdown-menu a:hover {
 }
 
 .carousel-caption {
-  color: white!important;
+  color: white !important;
   background-color: #22262a98;
   padding: 5px;
 }
 
 .carousel-indicators {
-  color: var(--bs-carousel-indicator-active-bg)!important;
+  color: var(--bs-carousel-indicator-active-bg) !important;
+}
+
+.btn.cta {
+  background-color: var(--primary-color);
+  border: 2px solid #F79531;
+}
+
+.link-cta.cta {
+  color: var(--background-color);
+
 }
 
 .card-left {
@@ -85,7 +152,7 @@ nav .dropdown-menu a:hover {
 }
 
 .texto-under-slider p {
-  color: rgb(87, 87, 87)!important;
+  color: rgb(87, 87, 87) !important;
 }
 
 /* ============================================= */
@@ -112,7 +179,8 @@ nav .dropdown-menu a:hover {
   height: 60px;
   width: auto;
   max-width: 130px;
-  margin-right: 60px; /* TODAS têm margem */
+  margin-right: 60px;
+  /* TODAS têm margem */
   flex-shrink: 0;
   object-fit: contain;
   filter: grayscale(100%);
@@ -145,11 +213,11 @@ nav .dropdown-menu a:hover {
 
 
 .product.call-to-action {
-  margin-top: 80px!important;
-  margin-bottom: 80px!important;
+  margin-top: 80px !important;
+  margin-bottom: 80px !important;
 }
 
-.product.call-to-action button{
+.product.call-to-action button {
 
   background-color: #F79531 !important;
   border-color: #F79531 !important;
@@ -161,6 +229,7 @@ nav .dropdown-menu a:hover {
 
   transition: transform 0.3s ease-in-out;
 }
+
 .product.call-to-action button:hover {
   transform: scale(1.08);
 }
@@ -168,20 +237,20 @@ nav .dropdown-menu a:hover {
 /* FOOTER */
 
 
-footer a{
+footer a {
   font-size: 12px;
   padding: 5px;
 }
 
-footer a:hover{
+footer a:hover {
   color: #F79531 !important;
 }
 
-.lh-base{
-  font-size: 15px!important;
+.lh-base {
+  font-size: 15px !important;
 }
 
-footer .border-bottom{
+footer .border-bottom {
   border-color: #F79531 !important;
   padding-bottom: 10px;
 }
