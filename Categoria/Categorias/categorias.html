@@ -11,6 +11,9 @@
     <link href="../../bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="../../bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
     <style>
         /* Apenas em telas grandes (acima de 992px - breakpoint lg do Bootstrap) */
         @media (min-width: 992px) {
@@ -106,18 +109,35 @@
 
         <div class="p-5 py-5">
             <h3 class="col-12 d-flex justify-content-center py-5">Selecione uma categoria</h3>
-
-
+            <div class="container pt-0 pb-5 col-4 border-5">
+                <label class="d-flex align-items-center gap-2 border rounded-5 p-2">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                    <input type="text" id="search" placeholder="Pesquisar..."  class="border-0" />
+                </label>
+            </div>
             <!-- Grid de cards -->
-            <div class="row">
+            <div class="row gap-5 ">
 
-                <div class="col-3 barra-lateral">
+                <div class="col-2 barra-lateral">
+                    <p>Lista de Categorias</p>
+                    <p>Lista de Categorias</p>
+                    <p>Lista de Categorias</p>
+                    <p>Lista de Categorias</p>
+                    <p>Lista de Categorias</p>
+                    <p>Lista de Categorias</p>
+                    <p>Lista de Categorias</p>
+                    <p>Lista de Categorias</p>
+                    <p>Lista de Categorias</p>
+                    <p>Lista de Categorias</p>
+                    <p>Lista de Categorias</p>
                 </div>
 
                 <div class="col-8">
                     <div class="row row-cols-4 row-gap-4">
                         <div class="col">
-                            <div class="card h-100 border-1 bg-soft-primary rounded-5">
+                            <div class="card border-0 h-100 rounded-5">
                                 <div class="card-body text-center d-flex flex-column">
                                     <div class="d-flex align-items-center justify-content-center" style="flex: 1;">
                                         <!-- Imagem no topo -->
@@ -135,7 +155,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card h-100 border-1 bg-soft-primary rounded-5">
+                            <div class="card h-100 border-0 bg-soft-primary rounded-5">
                                 <div class="card-body text-center d-flex flex-column">
                                     <div class="d-flex align-items-center justify-content-center" style="flex: 1;">
                                         <img src="../../SRC/CATEGORIAS/GEOFONE.png"
@@ -150,7 +170,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card h-100 border-1 bg-soft-primary rounded-5">
+                            <div class="card h-100 border-0 bg-soft-primary rounded-5">
                                 <div class="card-body text-center d-flex flex-column">
                                     <div class="d-flex align-items-center justify-content-center" style="flex: 1;">
                                         <img src="https://ovarro.com/content-media/assigned/141999/New%20Enigma%20(2).png"
@@ -165,7 +185,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card h-100 border-1 bg-soft-primary rounded-5">
+                            <div class="card h-100 border-0 bg-soft-primary rounded-5">
                                 <div class="card-body text-center d-flex flex-column">
                                     <div class="d-flex align-items-center justify-content-center" style="flex: 1;">
                                         <img src="https://ovarro.com/content-media/assigned/142004/Untitled%20design%20(15).png"
@@ -180,7 +200,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card h-100 border-1 bg-soft-primary rounded-5">
+                            <div class="card h-100 border-0 bg-soft-primary rounded-5">
                                 <div class="card-body text-center d-flex flex-column">
                                     <div class="d-flex align-items-center justify-content-center" style="flex: 1;">
 
@@ -196,7 +216,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card h-100 border-1 bg-soft-primary rounded-5">
+                            <div class="card h-100 border-0 bg-soft-primary rounded-5">
                                 <div class="card-body text-center d-flex flex-column">
                                     <div class="d-flex align-items-center justify-content-center" style="flex: 1;">
 
@@ -212,7 +232,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card h-100 border-1 bg-soft-primary rounded-5">
+                            <div class="card h-100 border-0 bg-soft-primary rounded-5">
                                 <div class="card-body text-center d-flex flex-column">
                                     <div class="d-flex align-items-center justify-content-center" style="flex: 1;">
                                         <img src="../../SRC/CATEGORIAS/CORRELACIONADOR_DE_RUIDOS.png" class="img-fluid"
@@ -226,7 +246,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card h-100 border-1 bg-soft-primary rounded-5">
+                            <div class="card h-100 border-0 bg-soft-primary rounded-5">
                                 <div class="card-body text-center d-flex flex-column">
                                     <div class="d-flex align-items-center justify-content-center" style="flex: 1;">
                                         <img src="/SRC/CATEGORIAS/39665-removebg-preview.png" class="img-fluid" alt="">
@@ -240,10 +260,11 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card h-100 border-1 bg-soft-primary rounded-5">
+                            <div class="card h-100 border-0 bg-soft-primary rounded-5">
                                 <div class="card-body text-center d-flex flex-column">
                                     <div class="d-flex align-items-center justify-content-center" style="flex: 1;">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV5nXw8od2Trq15sNYHzwjHNqP47HWmjVBH8cs19Mv8A&s=10" class="img-fluid" alt="">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV5nXw8od2Trq15sNYHzwjHNqP47HWmjVBH8cs19Mv8A&s=10"
+                                            class="img-fluid" alt="">
                                     </div>
                                     <div class="titleInfo mt-auto pb-2 pt-1">
                                         <h5 class="card-title mt-3 fw-bold">FPID2100</h5>
@@ -254,7 +275,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card h-100 border-1 bg-soft-primary rounded-5">
+                            <div class="card h-100 border-0 bg-soft-primary rounded-5">
                                 <div class="card-body text-center">
 
                                     <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
@@ -267,10 +288,11 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card h-100 border-1 bg-soft-primary rounded-5">
+                            <div class="card h-100 border-0 bg-soft-primary rounded-5">
                                 <div class="card-body text-center">
 
-                                    <img src="https://firsttexasproducts.com/cdn/shop/files/M97_401d3aec-f097-4408-b34d-73fdb06e18ec.jpg?v=1696006220&width=1946" class="img-fluid" alt="">
+                                    <img src="https://firsttexasproducts.com/cdn/shop/files/M97_401d3aec-f097-4408-b34d-73fdb06e18ec.jpg?v=1696006220&width=1946"
+                                        class="img-fluid" alt="">
                                     <div class="titleInfo pb-2 pt-1">
                                         <h5 class="card-title mt-3 fw-bold">M97</h5>
                                         <p class="card-text text-white">Perfeita para medir a velocidade<br> e a vazão
@@ -280,7 +302,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card h-100 border-1 bg-soft-primary rounded-5">
+                            <div class="card h-100 border-0 bg-soft-primary rounded-5">
                                 <div class="card-body text-center">
 
                                     <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
@@ -293,7 +315,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card h-100 border-1 bg-soft-primary rounded-5">
+                            <div class="card h-100 border-0 bg-soft-primary rounded-5">
                                 <div class="card-body text-center">
 
                                     <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
@@ -306,7 +328,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card h-100 border-1 bg-soft-primary rounded-5">
+                            <div class="card h-100 border-0 bg-soft-primary rounded-5">
                                 <div class="card-body text-center">
 
                                     <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">
@@ -319,7 +341,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card h-100 border-1 bg-soft-primary rounded-5">
+                            <div class="card h-100 border-0 bg-soft-primary rounded-5">
                                 <div class="card-body text-center">
 
                                     <img src="/SRC/products/MDH600300-e-MDH3966.png" class="img-fluid" alt="">

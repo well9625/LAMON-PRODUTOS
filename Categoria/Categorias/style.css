@@ -1,8 +1,9 @@
 :root {
   --background-color: #22262a;
-  --primary-color: #F79531;
+  --primary-color: #F79531!important;
   --secondary-color: #00395F;
   --bs-carousel-indicator-active-bg: #F79531!important;
+  --bs-gray: #ffffff;
 }
 
 body{
@@ -72,15 +73,35 @@ nav .dropdown-menu a:hover {
 }
 
 
-
+#search:focus {
+  outline: none;
+  box-shadow: none; /* Garante que o Bootstrap também não adicione sombras indesejadas */
+}
 
 .barra-lateral{
-  background-color: #22262ad8;
+  background-color: var(--bs-gray-500);
+
   height: 100%;
   padding: 20px;
   border-radius: 20px;
+  
 }
 
+.barra-lateral p{
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.barra-lateral p:hover{
+  background-color: #F79531;
+  color: white;
+  transform: scale(1.05);
+}
 /* 
 
                    _ 
@@ -96,7 +117,7 @@ nav .dropdown-menu a:hover {
 
 
 .card{
-  background-color: #fafafa!important;
+  background-color: var(--bs-gray-200)!important;
 }
 
 .card-body img{
