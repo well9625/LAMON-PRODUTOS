@@ -79,7 +79,7 @@ nav .dropdown-menu a:hover {
 }
 
 .barra-lateral{
-  background-color: var(--bs-gray-500);
+  /* background-color: var(--bs-gray-500); */
 
   height: 100%;
   padding: 20px;
@@ -88,7 +88,7 @@ nav .dropdown-menu a:hover {
 }
 
 .barra-lateral p{
-  color: white;
+  color: var(--primary-color);
   text-decoration: none;
   display: block;
   margin-bottom: 10px;
