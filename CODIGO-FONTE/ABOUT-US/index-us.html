@@ -43,52 +43,67 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow">
-        <div class="container-fluid">
-            <!-- Logo à esquerda -->
-            <div class="navbar-brand">
-                <img src="../../SRC/logoLamon.png" alt="Lamon Produtos" style="height: 40px" />
-            </div>
+    <div class="container-fluid">
+      <!-- Logo à esquerda -->
+      <div class="navbar-brand">
+        <img src="../../SRC/logoLamon.png" alt="Lamon Produtos" style="height: 40px" />
+      </div>
 
-            <!-- Botão toggler (só aparece no mobile) -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08"
-                aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+      <!-- Botão toggler (só aparece no mobile) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08"
+        aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <!-- Menu centralizado com position absolute apenas em telas grandes -->
-            <div class="collapse navbar-collapse" id="navbarsExample08">
-                <ul class="navbar-nav gap-3 gap-lg-4 gap-xl-5">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="../../Main/index.html">Início</a>
-                    </li>
-                    <li class="nav-item active"><a class="nav-link" href="index-us.html">Quem Somos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Serviços</a></li>
+      <!-- Menu centralizado com position absolute apenas em telas grandes -->
+      <div class="collapse navbar-collapse" id="navbarsExample08">
+        <ul class="navbar-nav gap-3 gap-lg-4 gap-xl-5">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../Main/index.html">Início</a>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="index-us.html">Quem Somos</a></li>
+          <li class="nav-item"><a class="nav-link" href="../CODIGO-FONTE/SERVICOS/index-services.html">Serviços</a></li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                            aria-expanded="false">Produtos</a>
-                        <ul class="dropdown-menu bg-dark">
-                            <li><a class="dropdown-item" href="../Categoria/Categorias/categorias.html">Todas
-                                    catégorias</a></li>
-                            <li><a class="dropdown-item" href="#">Maleta de Pitometria</a></li>
-                            <li><a class="dropdown-item" href="#">Medidores de Nível</a></li>
-                            <li><a class="dropdown-item" href="#">Pesquisa de vazamento</a></li>
-                            <li><a class="dropdown-item" href="#">Dataloggers</a></li>
-                            <li><a class="dropdown-item" href="#">Telemetria</a></li>
-                            <li><a class="dropdown-item" href="#">Blog</a></li>
-                            <li><a class="dropdown-item" href="#">Contato</a></li>
-                            <li>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Produtos</a>
+            <ul class="dropdown-menu bg-dark">
+              <li><a class="dropdown-item" href="../Categoria/Categorias/categorias.html">Todas catégorias</a></li>
+              <li><a class="dropdown-item" href="#">Maleta de Pitometria</a></li>
+              <li><a class="dropdown-item" href="#">Medidores de Nível</a></li>
+              <li><a class="dropdown-item" href="#">Pesquisa de vazamento</a></li>
+              <li><a class="dropdown-item" href="#">Dataloggers</a></li>
+              <li><a class="dropdown-item" href="#">Telemetria</a></li>
+          
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="../CODIGO-FONTE/BLOG/blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="../CODIGO-FONTE/CONTACT/contact.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <main class="mt-5 pt-5">
-        <div class="container d-flex flex-column d-flex justify-content-center align-items-center gap-5">
+    <main class="">
+
+<section class="video-banner vh-100 position-relative overflow-hidden">
+    
+    <!-- Vídeo Local -->
+    <video autoplay muted loop playsinline class="position-absolute w-100 h-100 object-fit-cover">
+        <source src="../ABOUT-US/src/INSTITUCIONAL4K.webm" type="video/mp4">
+        Seu navegador não suporta vídeos HTML5.
+    </video>
+
+    <!-- Overlay escuro -->
+    <div class="overlay position-absolute w-100 h-100 bg-dark opacity-50"></div>
+
+    <!-- Conteúdo -->
+    <div class="content position-relative h-100 d-flex flex-column align-items-center justify-content-center text-center text-white">
+        <h1>Sobre Nós</h1>
+        <p class="mb-4">Conheça nossa história e valores.</p>
+        <a href="#sobre" class="btn btn-outline-light btn-lg rounded-pill">Descubra mais</a>
+    </div>
+</section>
+        <div class="container d-flex flex-column d-flex justify-content-center align-items-center gap-5 mt-5" id="sobre">
             <div class="border-bottom historyFlow border-dark text-center">
 
                 <div class="row justify-content-center">

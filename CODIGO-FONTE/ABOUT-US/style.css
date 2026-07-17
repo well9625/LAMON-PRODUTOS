@@ -34,6 +34,9 @@ nav .dropdown-menu a:hover {
   color: #22262a !important;
 }
 
+.active {
+  color: #F79531 !important;
+}
 
 span{
   color: var(--primary-color);

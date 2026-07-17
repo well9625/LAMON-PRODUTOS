@@ -1,0 +1,166 @@
+:root {
+  --background-color: #22262a;
+  --primary-color: #F79531;
+  --secondary-color: #00395F;
+  --bs-carousel-indicator-active-bg: #F79531 !important;
+}
+
+ul li a:hover {
+  color: #F79531 !important;
+}
+
+nav {
+  background-color: #22262ad8 !important;
+}
+
+nav button {
+  background-color: #F79531 !important;
+  border-color: #F79531 !important;
+}
+
+nav button:hover {
+  background-color: #ffffff !important;
+  border-color: #F79531 !important;
+  color: black !important;
+}
+
+nav .dropdown-menu a {
+  color: white !important;
+  padding: 20px !important;
+}
+
+nav .dropdown-menu a:hover {
+  background-color: #F79531 !important;
+  color: #22262a !important;
+}
+
+.active {
+  color: #F79531 !important;
+}
+
+
+.banner {
+  background: linear-gradient(to right, black 0%, rgba(0, 0, 0, 0.6) 25%, rgba(0, 0, 0, 0.4) 30%, rgba(0, 0, 0, 0.1) 50%, transparent 70%),
+    linear-gradient(to right, rgba(0, 0, 0, 0.15), transparent),
+    url('../../SRC/maleta-calibracao.png');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  overflow: hidden;
+
+
+}
+
+.banner-content h1 {
+  color: var(--primary-color) !important;
+}
+
+
+
+.texto-under-slider p {
+  color: rgb(87, 87, 87) !important;
+}
+
+/* ============================================= */
+/* SCROLL INFINITO DE LOGOS - VERSÃO FINAL */
+/* ============================================= */
+
+.logos-slider {
+  width: 100%;
+  overflow: hidden;
+  background: #f0f0f0;
+  padding: 30px 0;
+}
+
+.logos-track {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  /* A ANIMAÇÃO SERÁ CONTROLADA PELO JavaScript */
+}
+
+/* ESTILO PADRÃO PARA TODOS OS LOGOS */
+/* ESTILO PADRÃO PARA TODOS OS LOGOS */
+.logos-track img {
+  height: 60px;
+  width: auto;
+  max-width: 130px;
+  margin-right: 60px;
+  /* TODAS têm margem */
+  flex-shrink: 0;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+/* REMOVE A MARGEM APENAS DA ÚLTIMA IMAGEM (número 14) */
+.logos-track img:last-child {
+  margin-right: 0;
+}
+
+/* ESSENCIAL: remove a margem de TODOS os últimos elementos de CADA leva */
+
+.logos-track img:nth-child(14) {
+  margin-right: 0;
+}
+
+/* PAUSA AO PASSAR O MOUSE */
+.logos-slider:hover .logos-track {
+  animation-play-state: paused;
+}
+
+.logos-slider:hover .logos-track img {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+
+
+
+.product.call-to-action {
+  margin-top: 80px !important;
+  margin-bottom: 80px !important;
+}
+
+.product.call-to-action button {
+
+  background-color: #F79531 !important;
+  border-color: #F79531 !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+
+
+
+  transition: transform 0.3s ease-in-out;
+}
+
+.product.call-to-action button:hover {
+  transform: scale(1.08);
+}
+
+/* FOOTER */
+
+
+footer a {
+  font-size: 12px;
+  padding: 5px;
+}
+
+footer a:hover {
+  color: #F79531 !important;
+}
+
+.lh-base {
+  font-size: 15px !important;
+}
+
+footer .border-bottom {
+  border-color: #F79531 !important;
+  padding-bottom: 10px;
+}
+
+
+
+/* FOOTER */
