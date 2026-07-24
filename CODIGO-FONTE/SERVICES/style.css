@@ -51,7 +51,7 @@ span{
 
 
 .banner{
-  background-image: url(../SERVICOS/src/laboratorio_taratura_isoil_lamon2.jpg);
+  background-image: url(src/laboratorio_taratura_isoil_lamon2.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
