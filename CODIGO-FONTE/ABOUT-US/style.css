@@ -42,6 +42,10 @@ span{
   color: var(--primary-color);
 }
 
+.theMessage{
+  margin-top: 80px!important;
+  margin-bottom: 80px!important;
+}
 
 .historyFlow{
   gap: 10px;
