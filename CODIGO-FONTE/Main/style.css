@@ -140,6 +140,23 @@ nav .dropdown-menu a:hover {
   transform: scale(1.08);
 }
 
+
+.card-left {
+  background-color: var(--primary-color);
+  border: 2px solid #F79531;
+  color: white;
+  border-radius: 20px;
+  font-size: 12px;
+  padding: 10px;
+  width: 180px;
+  height: 180px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card-left:hover {
+  transform: scale(1.08);
+}
+
 /* FOOTER */
 
 
