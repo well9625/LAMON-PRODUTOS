@@ -42,50 +42,46 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow">
-        <div class="container-fluid">
-            <!-- Logo à esquerda -->
-            <div class="navbar-brand">
-                <img src="../../SRC/logoLamon.png" alt="Lamon Produtos" style="height: 40px" />
-            </div>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow">
+    <div class="container-fluid">
+      <!-- Logo à esquerda -->
+      <div class="navbar-brand">
+        <img src="../../SRC/logoLamon.png" onclick="window.location.href='../MAIN/index.html'" alt="Lamon Produtos" style="height: 40px;cursor: pointer;" />
+      </div>
 
-            <!-- Botão toggler (só aparece no mobile) -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08"
-                aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+      <!-- Botão toggler (só aparece no mobile) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08"
+        aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <!-- Menu centralizado com position absolute apenas em telas grandes -->
-            <div class="collapse navbar-collapse" id="navbarsExample08">
-                <ul class="navbar-nav gap-3 gap-lg-4 gap-xl-5">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="../../Main/index.html">Início</a>
-                    </li>
-                    <li class="nav-item active"><a class="nav-link" href="index-us.html">Quem Somos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Serviços</a></li>
+      <!-- Menu centralizado com position absolute apenas em telas grandes -->
+      <div class="collapse navbar-collapse" id="navbarsExample08">
+        <ul class="navbar-nav gap-3 gap-lg-4 gap-xl-5">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../Main/index.html">Início</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="../ABOUT-US/index-us.html">Quem Somos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="../SERVICES/index-services.html">Serviços</a></li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                            aria-expanded="false">Produtos</a>
-                        <ul class="dropdown-menu bg-dark">
-                            <li><a class="dropdown-item" href="../Categoria/Categorias/categorias.html">Todas
-                                    catégorias</a></li>
-                            <li><a class="dropdown-item" href="#">Maleta de Pitometria</a></li>
-                            <li><a class="dropdown-item" href="#">Medidores de Nível</a></li>
-                            <li><a class="dropdown-item" href="#">Pesquisa de vazamento</a></li>
-                            <li><a class="dropdown-item" href="#">Dataloggers</a></li>
-                            <li><a class="dropdown-item" href="#">Telemetria</a></li>
-                            <li><a class="dropdown-item" href="#">Blog</a></li>
-                            <li><a class="dropdown-item" href="#">Contato</a></li>
-                            <li>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Produtos</a>
+            <ul class="dropdown-menu bg-dark">
+              <li><a class="dropdown-item" href="../CATEGORIES/categorias.html">Todos os Produtos</a></li>
+              <li><a class="dropdown-item" href="#">Maleta de Pitometria</a></li>
+              <li><a class="dropdown-item" href="#">Medidores de Nível</a></li>
+              <li><a class="dropdown-item" href="#">Pesquisa de vazamento</a></li>
+              <li><a class="dropdown-item" href="#">Dataloggers</a></li>
+              <li><a class="dropdown-item" href="#">Telemetria</a></li>
+          
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="../CODIGO-FONTE/BLOG/blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="../CODIGO-FONTE/CONTACT/contact.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
     <main class="">
         <div class="banner">

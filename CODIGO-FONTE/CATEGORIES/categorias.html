@@ -45,11 +45,11 @@
 </head>
 
 <body>
-   <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow">
     <div class="container-fluid">
       <!-- Logo à esquerda -->
       <div class="navbar-brand">
-        <img src="../../SRC/logoLamon.png" alt="Lamon Produtos" style="height: 40px" />
+        <img src="../../SRC/logoLamon.png" onclick="window.location.href='../MAIN/index.html'" alt="Lamon Produtos" style="height: 40px;cursor: pointer;" />
       </div>
 
       <!-- Botão toggler (só aparece no mobile) -->
@@ -62,15 +62,15 @@
       <div class="collapse navbar-collapse" id="navbarsExample08">
         <ul class="navbar-nav gap-3 gap-lg-4 gap-xl-5">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../Main/index.html">Início</a>
+            <a class="nav-link" aria-current="page" href="../Main/index.html">Início</a>
           </li>
           <li class="nav-item"><a class="nav-link" href="../ABOUT-US/index-us.html">Quem Somos</a></li>
-          <li class="nav-item"><a class="nav-link" href="../SERVICOS/index-services.html">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="../SERVICES/index-services.html">Serviços</a></li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Produtos</a>
+            <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" aria-expanded="false">Produtos</a>
             <ul class="dropdown-menu bg-dark">
-              <li><a class="dropdown-item" href="../Categorias/categorias.html">Todas catégorias</a></li>
+              <li><a class="dropdown-item active-dropdown" href="../CATEGORIES/categorias.html">Todos os Produtos</a></li>
               <li><a class="dropdown-item" href="#">Maleta de Pitometria</a></li>
               <li><a class="dropdown-item" href="#">Medidores de Nível</a></li>
               <li><a class="dropdown-item" href="#">Pesquisa de vazamento</a></li>

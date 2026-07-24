@@ -39,7 +39,14 @@ nav .dropdown-menu a:hover {
   color: #22262a !important;
 }
 
+.active {
+  color: #F79531 !important;
+}
 
+.active-dropdown {
+  background-color: #F79531 !important;
+  color: #22262a !important;
+}
 
 .banner {
   position: relative;

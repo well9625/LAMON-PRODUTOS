@@ -39,6 +39,9 @@ span{
   color: var(--primary-color);
 }
 
+.active {
+  color: #F79531 !important;
+}
 
 .historyFlow{
   gap: 10px;
